@@ -1,0 +1,99 @@
+
+
+.header-bg{
+     width: 1440px;
+     height: 715px;
+     background: #FFF9F4;
+}
+.navigation-bar ul li a{
+     color: #3C3C3C;
+     font-size: 16px;
+}
+.slider{
+     font-family: 'Bebas Neue', sans-serif;
+}
+.slider-image-1{
+     width: 407px;
+height: 407px;
+}
+.slider-image-2{
+     width: 407px;
+     height: 407px;
+}
+.slider-image-3{
+     width: 407px;
+     height: 407px;
+}
+.slider-text-h1{
+     font-size: 80px;
+}
+.nike-react{
+     font-size: 80px;
+     color: #FA804C;
+}
+.slider-button{
+     background: linear-gradient(180deg, #3D4FF3 0%, #3543BC 100%);
+border-radius: 10px;
+width: 170px;
+height: 60px;
+color: #FFFFFF;
+}
+@media  (max-width:688px) {
+     .header-bg{
+          width: 415px;
+          height: 1350px;
+     }     
+}
+
+/*---------------------------- main----------------- */
+/* casual shoe start */
+.casual-shoes{
+     font-family: 'Bebas Neue', sans-serif;
+     padding: 50px;
+}
+.shoes{
+     width: 370px;
+height: 550px;
+background: #FFFFFF;
+box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+border-radius: 20px;
+
+}
+.shoe-img{
+     width: 311px;
+height: 311px;
+
+}
+.shoe-bg{
+     width: 334px;
+height: 327px;
+background: #F1F1F1;
+border-radius: 20px;
+margin-left: 18px;
+
+
+
+
+}
+.shoes-text{
+     padding: 17px;
+     margin-top: 25px;
+}
+.shoes-text h1{
+     font-size: 24px;
+}
+.shoes-text a{
+     width: 170px;
+     height: 60px;
+     background: linear-gradient(180deg, #3D4FF3 0%, #3543BC 100%);
+     border-radius: 10px;
+
+     color: #FFFFFF;
+     padding: 15px;
+     
+}
+.h5-b h5{
+     font-size: 36px;
+     color: #FA804C;
+}
+/* casual shoe end  */

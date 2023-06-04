@@ -108,3 +108,15 @@ border-radius: 20px;
      width: 78px;
 height: 82px;
 }
+.footer-img{
+     height: 354.0699157714844px;
+     width: 599px;
+     margin-top: 170px;
+
+
+}
+@media (max-width:688px){
+     .footer-img{
+          display: none;
+     }
+}

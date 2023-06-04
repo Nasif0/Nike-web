@@ -1,13 +1,18 @@
-
+*{
+     margin: 0;
+     padding: 0;
+}
 
 .header-bg{
-     width: 1440px;
+     width: 1212px;
      height: 715px;
      background: #FFF9F4;
 }
 .navigation-bar ul li a{
      color: #3C3C3C;
      font-size: 16px;
+     
+     margin-right: 50px;
 }
 .slider{
      font-family: 'Bebas Neue', sans-serif;
@@ -38,12 +43,7 @@ width: 170px;
 height: 60px;
 color: #FFFFFF;
 }
-@media  (max-width:688px) {
-     .header-bg{
-          width: 415px;
-          height: 1350px;
-     }     
-}
+
 
 /*---------------------------- main----------------- */
 /* casual shoe and formal shoe start */
@@ -51,12 +51,17 @@ color: #FFFFFF;
      font-family: 'Bebas Neue', sans-serif;
      padding: 50px;
 }
+.shoes-king{
+    padding-right: 32px;
+}
+
 .shoes{
-     width: 370px;
+     width: 350px;
 height: 550px;
 background: #FFFFFF;
 box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
 border-radius: 20px;
+
 
 }
 .shoe-img{
@@ -66,11 +71,11 @@ height: 311px;
 
 }
 .shoe-bg{
-     width: 334px;
-height: 327px;
-background: #F1F1F1;
-border-radius: 20px;
-margin-left: 18px;
+     width: 314px;
+     height: 327px;
+     background: #F1F1F1;
+     border-radius: 20px;
+     margin-left: 18px;
 
 
 
@@ -108,15 +113,98 @@ border-radius: 20px;
      width: 78px;
 height: 82px;
 }
+.image-footer{
+    
+}
 .footer-img{
-     height: 354.0699157714844px;
-     width: 599px;
-     margin-top: 170px;
+     
+     
+     
 
 
 }
-@media (max-width:688px){
+/* mobile device */
+@media  (max-width:688px) {
+     .header-bg{
+          width: 415px;
+          height: 1225px;
+     }
      .footer-img{
           display: none;
      }
+     .slider-image-1{
+          width: 315.51px;
+          height: 290px;
+          
+}
+     .slider-image-2{
+          width: 315.51px;
+          height: 290px;
+}
+     .slider-image-3{
+          width: 315.51px;
+          height: 290px;
+     }
+     .slider-text-h1{
+          width: 295px;
+          height: 176px;
+          
+
+     }
+     .shoes{
+          width: 343px;
+height: 550px;
+     }
+     .penguen{
+          width: 192.75px;
+          height: 26px;
+
+     }
+     .casual-shoes{
+          
+          text-align: center;
+     }
+     .footer-mbl{
+         flex-direction: column;
+         width: 343px;
+height: 240px;
+     }
+     .container-mobile{
+          margin-top: 20%;
+     }
+
+}
+
+/* Tablet Device */
+@media (min-width:688px) and (max-width:992px){
+
+     .header-bg{
+          height: 1060px;
+     }
+     .slider-image-1{
+width: 500px;
+
+
+     }
+     .slider-image-2{
+          width: 500px;
+
+     }
+     .slider-image-3{
+          width: 500px;
+
+     }
+     .slider{
+          margin-right: 30%;
+     }
+     .slider-text{
+          text-align: center;
+     }
+    
+
+     
+
+
+
+
 }
